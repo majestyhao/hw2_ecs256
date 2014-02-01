@@ -9,6 +9,8 @@ P1aSiumulation <- function(n, k) {
   cat("EX: ")
   # print(total/n)
   print(mean(X))
+  cat("variance: ")
+  print(var(X)) # should be 11/16 k
 }
 
 # one trail
