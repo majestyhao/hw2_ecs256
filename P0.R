@@ -14,7 +14,7 @@ P0Siumulation <- function(n, i) {
 # one trail
 rxi <- function(i) {
   # flipe a coin
-  m <- sample(0:1, 1)
+  m <- sample(0:1, 1) # uniform sample
   # assign p when the coin is tail
   p <- if (m == 0) 0.1 else 0.9
   # i subtrails during each trail
